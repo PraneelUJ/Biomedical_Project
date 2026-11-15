@@ -1,0 +1,20 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated MATLAB outputs and converted/downloaded datasets
+*.mat
+*.h5
+*.uff
+PICMUS_filterbank_sweep_summary.csv
+
+# Raw Open-H-RF files are large; the project already tracks its selected
+# acquisitions with Git LFS. Do not accidentally add additional datasets.
+*.hdf5
